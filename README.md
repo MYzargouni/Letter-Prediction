@@ -35,7 +35,7 @@ const Chosirlettre = (lettre, ProbaTotal) => R.prop(lettre)(ProbaTotal);
 ## Affichage
 
 Pour l'affichage nous vérifions juste que l'input utilisateur est bien une lettre, puis nous choisissons quelles objets utiliser en fonction de la taille de l'input. voici un exemple avec 'le' :
-
+![image alt](https://github.com/MYzargouni/Letter-Prediction/blob/main/exemple%20avec%20'le'.png?raw=true)
 ## License
 
 Faites absolument ce que vous voulez avec ce projet
