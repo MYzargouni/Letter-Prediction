@@ -2,11 +2,16 @@
 
 Bonjour,
 
-Ce projet réalisé par Natalène Harounyan et Mohamed Yacine Zargouni, a pour but de prédire la lettre suivant une ou deux lettres en utilisant le principe des chaines de Markov.
+Ce projet réalisé par Natalène Harounyan et Mohamed Yacine Zargouni a pour but de prédire la lettre suivant une ou deux lettres en utilisant le principe des chaines de Markov.
 
 ## Préparation
+Pour réaliser notre prédiction, nous avons utilisé des corpus de texte français disponibles en ligne : 
+ - "Le petit prince", Antoine de Saint-Exupéry
+ - "Rapport minoritaire", Philip K. Dick
+ - Les contes de Grimm
+Les textes ont été choisis arbitrairement et permettront de définir un base d'analyse pour les futures prédictions.
 
-Dans un premier temps dans le fichier cleanText.js nous traitons les fichiers textes sélectionnés. Nous enlevons tous ce qui n'est pas une lettre et nous remplaçons les apostrophes, tiré et autres par des espaces. Puis nous fusionnons le tout dans un unique fichier.
+Dans un premier temps dans le fichier cleanText.js nous traitons les fichiers textes sélectionnés. Nous enlevons tous ce qui n'est pas une lettre et nous remplaçons les apostrophes, tirets et autres par des espaces. Puis nous fusionnons le tout dans un unique fichier.
 
 ```javascript
 const cleanPP = preprocess(texteSepparePP);
@@ -40,4 +45,4 @@ Pour l'affichage nous vérifions juste que l'input utilisateur est bien une lett
 ![image alt](https://github.com/MYzargouni/Letter-Prediction/blob/main/exemple%20avec%20'le'.png?raw=true)
 ## License
 
-Faites absolument ce que vous voulez avec ce projet
+Faites absolument ce que vous voulez avec ce projet ! <3
